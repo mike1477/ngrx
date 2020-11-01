@@ -1,0 +1,7 @@
+<ul class="list-group">
+
+	<li class="list-group-item" *ngFor="let item of aprs$|async as aprs">
+		<a [routerLink]="['/aprs-item', item.id ]" (click)="aprSelected(item)">{{item.name}}</a>
+	</li>
+
+</ul>

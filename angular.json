@@ -123,6 +123,11 @@
           }
         }
       }
-    }},
-  "defaultProject": "John"
+    }
+  },
+  "defaultProject": "John",
+  "cli": {
+    "analytics": "1d7e64d3-dff0-4717-b82e-cb656c4724e6",
+    "defaultCollection": "@ngrx/schematics"
+  }
 }
